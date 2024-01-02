@@ -6,9 +6,9 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"); */
 html {
   line-height: 1.15;
   /* 1 */
@@ -17,6 +17,14 @@ html {
 }
 @import url("https://fonts.cdnfonts.com/css/venus-plant");
 @import url("https://fonts.cdnfonts.com/css/nostalgic-remain");
+
+@font-face {
+        font-family: "HanyiSentyTang"; /* Choose a unique name for your font */
+        src: url("/font/COM4F_RG.TTF") format("woff2"),
+           url("//font/COM4F_RG.TTF") format("woff");
+
+       
+      }
 /* Sections
    ========================================================================== */
 /**
@@ -24,10 +32,11 @@ html {
  */
 body {
   margin: 0;
-  background-image: linear-gradient(#000000a1, #000000a5), url(/bg.jpg);
+  background-image: linear-gradient(#000000a1, rgba(0,0,0,0.6)), url(/bg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  font-family:'HanyiSentyTang',sans-serif!important
 }
 
 /**
@@ -108,7 +117,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -161,7 +171,8 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -352,7 +363,8 @@ body {
   color: #ecffe1;
   font-size: 1rem;
   line-height: 1.4;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   background-color: #210e3f;
 }
 
@@ -366,7 +378,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   color: #ecffe1;
   line-height: 1.2;
   font-weight: 700;
@@ -1451,7 +1464,8 @@ ol {
 
 .nav-link {
   color: #fff;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important
 }
 @media (min-width: 1200px) {
   .nav-link {
@@ -1614,7 +1628,7 @@ ol {
   height: 18px;
   line-height: 18px;
   font-size: 14px;
-  font-family: "Nostalgic Remain", sans-serif;
+font-family:'HanyiSentyTang',sans-serif!important;
   border-radius: 50%;
   color: #abff87;
   top: -8px;
@@ -2229,7 +2243,8 @@ ol {
   font-size: 1rem;
   border-radius: 4px;
   text-decoration: none;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   color: #191919;
   padding: 0 1.7rem;
   line-height: 50px;
@@ -2723,7 +2738,8 @@ ol {
   font-size: calc(1.275rem + 0.2571428571vw);
   background-color: transparent;
   color: #191919;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
   font-weight: 500;
   padding: 1.5rem 1rem;
   border: none;
@@ -3089,7 +3105,8 @@ ol {
   color: #abff87;
   content: "" !important;
   font-size: 36px;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important;
 }
 .post-item-2 .post-inner .post-content .qute-content blockquote::after {
   width: 40px;
@@ -3100,7 +3117,8 @@ ol {
   color: #abff87;
   content: "" !important;
   font-size: 36px;
-  font-family: "Nostalgic Remain", sans-serif;
+  /* font-family: "Nostalgic Remain", sans-serif; */
+  font-family:'HanyiSentyTang',sans-serif!important
 }
 .post-item-2 .post-inner .post-content .qute-content blockquote a {
   -webkit-transition: all 0.3s ease;
